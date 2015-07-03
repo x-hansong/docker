@@ -108,7 +108,7 @@ class Library:
 librarys=[]
 librarys.append(Library('D1430842490','842493','lassie1996@qq.com'))
 librarys.append(Library('D1330613450','613452','569621285@qq.com'))
-
+librarys[1].sendMail("开始检测图书借阅情况")
 t=1
 while(True):
     print 'check loan books'+str(t)
